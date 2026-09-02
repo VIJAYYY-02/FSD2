@@ -12,8 +12,11 @@
 //     return (n+2);
 // }
 
-setTimeout(function() {
-    console.log("This is an anonymous function inside setTimeout");
-});
+// setTimeout(function() {
+//     console.log("This is an anonymous function inside setTimeout");
+// }, 1000);
 
 
+(function one(){
+   console.log("hello")
+})();

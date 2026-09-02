@@ -1,4 +1,4 @@
-// const person = {
+const person = {
 //   name: "vj",
 //   age: 25,
 //   greet: function() {
@@ -11,17 +11,3 @@
 // person.name = "vj1";
 // person.age = 26;
 // person.greet();
-
-function  show(){
-    console.log(this);      
-}
-show();
-
-const person = {
-    name: "vj",
-    greet: function() {
-        return (this);
-    }
-};
-person.greet();
-  console.log(this);

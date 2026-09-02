@@ -16,7 +16,12 @@
 //     console.log("This is an anonymous function inside setTimeout");
 // }, 1000);
 
-
+//NAMED IIFE
 (function one(){
    console.log("hello")
+})();
+
+//anonymous IIFE
+(function(){
+    console.log("database connected");
 })();

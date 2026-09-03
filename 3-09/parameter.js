@@ -22,8 +22,17 @@
 //     console.error(error.message);
 // }
 
-function show(x=1,y=x,z=y+x) {
-    console.log(x+y+z);
+// function show(x=1,y=x,z=y+x) {
+//     console.log(x+y+z);
+// }
+// console.log(show());
+// console.log(show(5));
+
+function display(x=test()){
+    return x;
 }
-console.log(show());
-console.log(show(5));
+function test() {
+    return (new Date().toLocaleDateString());
+
+}
+console.log(display());

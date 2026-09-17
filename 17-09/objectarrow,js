@@ -1,27 +1,39 @@
-const fun=()=>({user:"vj"});
-console.log(fun());
+// const fun=()=>({user:"vj"});
+// console.log(fun());
 
 
-const one= ()=>{
-    let user="vj";
-    console.log(user);
-    // console.log(this.user);//undefined
-    console.log(this);
-}
-one();
+// const one= ()=>{
+//     let user="vj";
+//     console.log(user);
+//     // console.log(this.user);//undefined
+//     console.log(this);
+// }
+// one();
 
-const person={
-    name:"vj",
-    greet:function(){setTimeout(function(){console.log(this.name);},3000); }
+// const person={
+//     name:"vj",
+//     greet:function(){setTimeout(function(){console.log(this.name);},3000); }
+// };
+// person.greet();
+
+// const person = {
+//     name: "vj",
+//     greet: function() {
+//         setTimeout(function() {
+//             console.log(this.name); // "vj"
+//         }.bind(this), 3000);
+//     }
+// };
+// person.greet();
+
+// function person(){
+//     console.log(person.prototype);
+
+// }
+// person();
+
+const person = () => {
+    console.log(person.prototype);
 };
-person.greet();
+person();
 
-const person = {
-    name: "vj",
-    greet: function() {
-        setTimeout(function() {
-            console.log(this.name); // "vj"
-        }.bind(this), 3000);
-    }
-};
-person.greet();

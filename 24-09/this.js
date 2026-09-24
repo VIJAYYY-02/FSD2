@@ -21,12 +21,13 @@
 // global.show = show;
 // global.show();
 
-const person={
-    name:"vj",
-    age:"19",
-    greet:function(){
-        return this.name;
-    }
-};
-let p1= person.greet;
-console.log(p1());
+// const person={
+//     name:"vj",
+//     age:"19",
+//     greet:function(){
+//         return this;
+//     }
+// };
+// let p1 = person.greet.bind(person);
+// console.log(p1());
+

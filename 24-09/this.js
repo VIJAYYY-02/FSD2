@@ -22,6 +22,7 @@
 // global.show();
 
 // const person={
+
 //     name:"vj",
 //     age:"19",
 //     greet:function(){
@@ -31,3 +32,9 @@
 // let p1 = person.greet.bind(person);
 // console.log(p1());
 
+function multi(a,b){
+    return a*b;
+
+}
+const d=multi.bind(null,2);
+console.log(d(2));

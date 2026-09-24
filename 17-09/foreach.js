@@ -1,5 +1,5 @@
 const arr = [10, 20, 30, 40];
 
 arr.forEach((value, index) => {
-    console.log(`Index: ${index}, Value: ${value}`);
+    console.log(value,index);
 });

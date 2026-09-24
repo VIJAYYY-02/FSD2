@@ -31,10 +31,10 @@
 // };
 // let p1 = person.greet.bind(person);
 // console.log(p1());
-
-function multi(a,b){
-    return a*b;
-
+function multi(a, b) {
+    console.log("a =", a, "b =", b);
+    return a * b;
 }
-const d=multi.bind(null,2);
-console.log(d(2));
+
+const d = multi.bind(null, 2);
+console.log(d(5)); // logs a=2, b=5 → result 10
